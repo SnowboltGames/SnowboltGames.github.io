@@ -5,6 +5,7 @@ body {
 }
 .header-bar {
   background-color: #3C3C3C;
+  padding: 10px 10px 10px 10px;
   width: 100%;
   height: auto;
 }
