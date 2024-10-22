@@ -8,6 +8,10 @@ h1, h2, h3, h4, p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.navbar-logo {
+  height: 50px;
+  width: auto;
+}
 .header-bar {
   background-color: #3C3C3C;
   padding: 20px 20px 20px 20px;
