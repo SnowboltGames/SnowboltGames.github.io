@@ -3,3 +3,8 @@ body {
   color: #ffffff;
   font-family: monospace;
 }
+.header-bar {
+  background-color: #3C3C3C;
+  width: 100%;
+  height: auto;
+}
