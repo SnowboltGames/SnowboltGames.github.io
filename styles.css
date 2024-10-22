@@ -21,6 +21,9 @@ h1, h2, h3, h4, p {
   height: 100px;
   width: auto;
 }
+.navbar-brand a {
+  display: inline-flex;
+}
 .navbar-logo {
   height: -webkit-fill-available;
   width: auto;
@@ -30,11 +33,11 @@ h1, h2, h3, h4, p {
   font-family: "Rubik Distressed", system-ui;
   font-size: 22px;
 }
-.navbar-text a {
+.nabar-brand .navbar-text a {
   text-decoration: none;
   color: #e8e8e8;
 }
-.navbar-text a:hover {
+.navbar-brand .navbar-text a:hover {
   text-decoration: none;
   color: #ffffff;
 }
