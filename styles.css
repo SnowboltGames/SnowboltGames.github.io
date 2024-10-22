@@ -13,6 +13,9 @@ h1, h2, h3, h4, p {
   font-weight: 400;
   font-style: normal;
 }
+.navbar-spacer {
+  width: 100%;
+}
 .navbar-brand {
   display: inline-flex;
   height: 100px;
