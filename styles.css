@@ -1,4 +1,5 @@
 body {
+  margin: 0px;
   background-color: #343434;
   color: #ffffff;
   font-family: monospace;
@@ -8,7 +9,6 @@ h1, h2, h3, h4 {
   margin-bottom: 0px;
 }
 .header-bar {
-  margin: 0px;
   background-color: #3C3C3C;
   padding: 20px 20px 20px 20px;
   width: 100%;
