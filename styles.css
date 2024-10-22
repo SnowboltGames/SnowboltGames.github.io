@@ -43,13 +43,16 @@ h1, h2, h3, h4, p {
 }
 .main-menu {
   display: inline-flex;
+  font-family: "Rubik Distressed", system-ui;
 }
 .main-menu a {
   text-decoration: none;
+  margin-left: 10px;
   color: #e8e8e8;
 }
 .main-menu a:hover {
   text-decoration: none;
+  margin-left: 10px;
   color: #ffffff;
 }
 .header-bar {
