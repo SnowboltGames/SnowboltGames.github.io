@@ -8,6 +8,11 @@ h1, h2, h3, h4, p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.rubik-distressed-regular {
+  font-family: "Rubik Distressed", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 .navbar-logo {
   height: 100px;
   width: auto;
