@@ -21,6 +21,9 @@ h1, h2, h3, h4, p {
   height: auto;
   width: auto;
 }
+.navbar-text {
+  font-family: "Rubik Distressed", system-ui;
+}
 .header-bar {
   background-color: #3C3C3C;
   padding: 20px 20px 20px 20px;
