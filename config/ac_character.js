@@ -39,6 +39,7 @@ const Player = class {
         this.name = name;
         this.archetype = new Archetype(archetype);
         this.dhf = new DHF({});
-        this.sleeve = new Sleeve({})
+        this.sleeve = new Sleeve({});
+        this.character = new Character();
     }
 };
