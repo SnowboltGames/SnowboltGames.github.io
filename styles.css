@@ -69,6 +69,10 @@ a.navbar-text-link:hover {
   width: 100%;
   justify-content: center;
 }
+.footer-copyright {
+  margin-top: 10px;
+  text-align: center;
+}
 .main-menu {
   display: inline-flex;
   font-family: "Rubik Distressed", system-ui;
