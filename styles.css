@@ -66,7 +66,7 @@ h1, h2, h3, h4, p {
 .main-content {
   padding: 20px 20px 20px 20px;
   width: -webkit-fill-available;
-  height: auto;
+  height: -webkit-fill-available;
 }
 .footer-bar {
   background-color: #3C3C3C;
