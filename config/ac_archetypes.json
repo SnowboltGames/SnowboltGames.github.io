@@ -1,4 +1,32 @@
 {
-    "civilian": {}, 
-    "soldier": {}
+    "civilian": {
+        "defaults": {
+            "sleeve_type": "Birth"
+        }
+    }, 
+    "criminal": {
+        "defaults": {
+            "sleeve_type": "Synth_Low"
+        }
+    }, 
+    "official": {
+        "defaults": {
+            "sleeve_type": "Birth"
+        }
+    }, 
+    "socialite": {
+        "defaults": {
+            "sleeve_type": "Birth"
+        }
+    }, 
+    "soldier": {
+        "defaults": {
+            "sleeve_type": "Synth_Med"
+        }
+    }, 
+    "technician": {
+        "defaults": {
+            "sleeve_type": "Birth"
+        }
+    }
 }
