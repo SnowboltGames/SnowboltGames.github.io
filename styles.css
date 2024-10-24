@@ -41,6 +41,17 @@ h1, h2, h3, h4, p {
   width: auto;
   margin-right: 10px;
 }
+a.navbar-text-link {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 0px;
+  color: #e8e8e8;
+  font-size: 30px;
+}
+a.navbar-text-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
 .navbar-text {
   font-family: "Rubik Distressed", system-ui;
   font-size: 22px;
