@@ -22,7 +22,7 @@ h1, h2, h3, h4, p {
   height: auto;
   width: -webkit-fill-available;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 .navbar-brand {
   display: inline-flex;
