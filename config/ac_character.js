@@ -18,7 +18,7 @@ const DHF = class {
 
 const Sleeve = class {
     constructor(dataset) {
-        this.attributes = new Attributes("dhf", dataset);
+        this.attributes = new Attributes("sleeve", dataset);
     }
 };
 
