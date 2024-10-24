@@ -1,12 +1,24 @@
-const DHF = class {
-    constructor() {
+const Attributes = class {
+    constructor(attribute_type, attribute_data) {
+        if (attribute_type == "sleeve") {
+            console.log(attribute_type, "PRINTED");
+        } else if (attribute_type == "dhf") {
+            console.log(attribute_type, "PRINTED");
+        } else {
+            console.log();
+        };
+    }
+};
 
+const DHF = class {
+    constructor(dataset) {
+        this.attributes = new Attributes("dhf", dataset);
     }
 };
 
 const Sleeve = class {
-    constructor() {
-        
+    constructor(dataset) {
+        this.attributes = new Attributes("dhf", dataset);
     }
 };
 
@@ -26,5 +38,7 @@ const Player = class {
     constructor(name, archetype) {
         this.name = name;
         this.archetype = new Archetype(archetype);
+        this.dhf = new DHF({});
+        this.sleeve = new Sleeve({})
     }
 };
