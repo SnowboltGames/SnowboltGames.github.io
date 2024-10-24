@@ -71,6 +71,7 @@ h1, h2, h3, h4, p {
 .footer-bar {
   background-color: #3C3C3C;
   padding: 20px 20px 20px 20px;
+  display: block;
   width: -webkit-fill-available;
   height: auto;
 }
