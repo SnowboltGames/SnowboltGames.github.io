@@ -34,12 +34,12 @@
     <div class="main-content">
         <p>
             <script>
-                player = new Player("Test Player Name", "Civilian");
+                let player = new Player("Test Player Name", "Civilian");
                 console.log("Name:", player.name);
                 console.log("Archetype:", player.archetype.name);
             </script>
         </p>
-      <p>Altered Carbon: Uprising - Player Archetype <script>return player.archetype.name;</script></p>
+      <p>Altered Carbon: Uprising - Player Archetype <script>player.archetype.name;</script></p>
     </div>
     <div class="footer-bar">
       <div class="footer-navbar-brand">
