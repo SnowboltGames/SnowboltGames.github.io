@@ -75,6 +75,7 @@ a.navbar-text-link:hover {
   justify-content: center;
 }
 .footer-copyright {
+  color: #e8e8e8;
   margin-top: 10px;
   text-align: center;
   font-family: 'Rubik Distressed';
