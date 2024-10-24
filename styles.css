@@ -41,6 +41,14 @@ h1, h2, h3, h4, p {
 .navbar-menu {
   display: inline-flex;
 }
+.footer-menu {
+  display: inline-flex;
+  width: 100%;
+}
+.footer-menu .main-menu {
+  width: 100%;
+  justify-content: center;
+}
 .main-menu {
   display: inline-flex;
   font-family: "Rubik Distressed", system-ui;
