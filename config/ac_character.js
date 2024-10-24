@@ -26,7 +26,7 @@ const Archetype = class {
     constructor(archetype_name) {
         this.name = archetype_name;
     }
-}
+};
 
 const Character = class {
     constructor() {
