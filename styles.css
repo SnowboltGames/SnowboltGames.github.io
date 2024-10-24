@@ -8,6 +8,7 @@ h1, h2, h3, h4, p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 .rubik-distressed-regular {
   font-family: "Rubik Distressed", system-ui;
   font-weight: 400;
@@ -18,8 +19,8 @@ h1, h2, h3, h4, p {
 }
 .footer-navbar-brand {
   display: inline-flex;
-  height: -webkit-fill-available;
-  width: auto;
+  height: auto;
+  width: -webkit-fill-available;
   justify-content: center;
   margin-bottom: 25px;
 }
@@ -47,6 +48,7 @@ a.navbar-text-link {
   margin-left: 0px;
   color: #e8e8e8;
   font-size: 30px;
+  text-align: center;
 }
 a.navbar-text-link:hover {
   text-decoration: none;
@@ -79,6 +81,21 @@ a.navbar-text-link:hover {
   font-size: 30px;
 }
 .main-menu a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-main-menu {
+  display: inline-flex;
+  font-family: "Rubik Distressed", system-ui;
+}
+.footer-main-menu a {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 25px;
+  color: #e8e8e8;
+  font-size: 30px;
+}
+.footer-main-menu a:hover {
   text-decoration: none;
   color: #ffffff;
 }
