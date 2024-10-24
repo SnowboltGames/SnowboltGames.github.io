@@ -2,31 +2,55 @@
     "civilian": {
         "defaults": {
             "sleeve_type": "Birth"
+        }, 
+        "attributes": {
+            "dhf": {}, 
+            "sleeve": {}
         }
     }, 
     "criminal": {
         "defaults": {
             "sleeve_type": "Synth_Low"
+        }, 
+        "attributes": {
+            "dhf": {}, 
+            "sleeve": {}
         }
     }, 
     "official": {
         "defaults": {
             "sleeve_type": "Birth"
+        }, 
+        "attributes": {
+            "dhf": {}, 
+            "sleeve": {}
         }
     }, 
     "socialite": {
         "defaults": {
             "sleeve_type": "Birth"
+        }, 
+        "attributes": {
+            "dhf": {}, 
+            "sleeve": {}
         }
     }, 
     "soldier": {
         "defaults": {
             "sleeve_type": "Synth_Med"
+        }, 
+        "attributes": {
+            "dhf": {}, 
+            "sleeve": {}
         }
     }, 
     "technician": {
         "defaults": {
             "sleeve_type": "Birth"
+        }, 
+        "attributes": {
+            "dhf": {}, 
+            "sleeve": {}
         }
     }
 }
