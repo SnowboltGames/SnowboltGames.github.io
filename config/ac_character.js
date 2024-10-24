@@ -10,6 +10,12 @@ const Sleeve = class {
     }
 };
 
+const Archetype = class {
+    constructor(archetype_name) {
+        this.name = archetype_name;
+    }
+}
+
 const Character = class {
     constructor() {
         
@@ -18,7 +24,7 @@ const Character = class {
 
 const Player = class {
     constructor(name, archetype) {
-        this.name = name
-        this.archetype = archetype
+        this.name = name;
+        this.archetype = new Archetype(archetype);
     }
 };
