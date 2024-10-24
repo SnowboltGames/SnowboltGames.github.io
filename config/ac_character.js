@@ -1,9 +1,9 @@
 const Attributes = class {
     constructor(attribute_type, attribute_data) {
         if (attribute_type == "sleeve") {
-            console.log(attribute_type, "PRINTED");
+            console.log("Attributes Type:", attribute_type, "Loaded");
         } else if (attribute_type == "dhf") {
-            console.log(attribute_type, "PRINTED");
+            console.log("Attributes Type:", attribute_type, "Loaded");
         } else {
             console.log();
         };
