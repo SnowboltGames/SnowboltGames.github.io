@@ -77,6 +77,8 @@ a.navbar-text-link:hover {
 .footer-copyright {
   margin-top: 10px;
   text-align: center;
+  font-family: 'Rubik Distressed';
+  font-style: italic;
 }
 .main-menu {
   display: inline-flex;
