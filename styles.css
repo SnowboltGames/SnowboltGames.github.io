@@ -37,7 +37,7 @@ h1, h2, h3, h4, p {
   color: #ffffff;
 }
 .navbar-logo {
-  height: -webkit-fill-available;
+  height: 100px;
   width: auto;
   margin-right: 10px;
 }
