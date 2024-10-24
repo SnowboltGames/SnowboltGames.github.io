@@ -16,6 +16,13 @@ h1, h2, h3, h4, p {
 .navbar-spacer {
   width: 100%;
 }
+.footer-navbar-brand {
+  display: inline-flex;
+  height: 100px;
+  width: auto;
+  justify-content: center;
+  margin-bottom: 25px;
+}
 .navbar-brand {
   display: inline-flex;
   height: 100px;
