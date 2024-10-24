@@ -17,7 +17,8 @@ const Character = class {
 };
 
 const Player = class {
-    constructor(name) {
+    constructor(name, archetype) {
         this.name = name
+        this.archetype = archetype
     }
 };
