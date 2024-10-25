@@ -28,18 +28,12 @@ const Archetype = class {
     }
 };
 
-const Character = class {
-    constructor() {
-        
-    }
-};
-
 const BankAccount = class {
     constructor(start_balance, credit_limit) {
-        this.balance = start_balance
-        this.credit_limit = credit_limit
+        this.balance = start_balance;
+        this.credit_limit = credit_limit;
     }
-}
+};
 
 const Player = class {
     constructor(name, archetype) {
@@ -47,7 +41,6 @@ const Player = class {
         this.archetype = new Archetype(archetype);
         this.dhf = new DHF({});
         this.sleeve = new Sleeve({});
-        this.character = new Character();
         this.bank_account = BankAccount(100, 0);
     }
 };
