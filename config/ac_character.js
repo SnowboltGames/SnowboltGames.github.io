@@ -38,20 +38,14 @@ const Archetype = class {
             if (this.name == "civilian") {
                 _da = {
                     "empathy": {
-                        "a": [1, "d8"], 
-                        "a": [1, "d8"], 
-                        "a": [1, "d8"], 
-                        "a": [1, "d8"], 
-                        "a": [1, "d8"], 
-                        "a": [1, "d8"]
+                        "diplomacy": [1, "d8"], 
+                        "expression": [1, "d8"], 
+                        "read_person": [1, "d8"]
                     }, 
                     "willpower": {
-                        "a": [1, "d8"], 
-                        "a": [1, "d8"], 
-                        "a": [1, "d8"], 
-                        "a": [1, "d8"], 
-                        "a": [1, "d8"], 
-                        "a": [1, "d8"]
+                        "composure": [1, "d8"], 
+                        "discipline": [1, "d8"], 
+                        "intimidation": [1, "d8"]
                     }, 
                     "acuity": {
                         "a": [1, "d8"], 
