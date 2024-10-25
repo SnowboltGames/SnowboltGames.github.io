@@ -43,7 +43,7 @@ const Archetype = class {
         this.set_dhf_attributes = new function() {
             if (sleeve_type != null) {
                 this.sleeve_type = sleeve_type
-            }
+            };
             if (this.name == "civilian") {
                 if (sleeve_type == null) {
                     this.sleeve_type = "birth"
