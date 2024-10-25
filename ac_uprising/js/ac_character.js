@@ -40,331 +40,331 @@ const Archetype = class {
         this.name = archetype_name;
         this.dhf = null;
         this.sleeve = null;
-        this.set_dhf_attributes = function() {
-            if (sleeve_type != null) {
-                this.sleeve_type = sleeve_type
-            };
-            if (this.name == "civilian") {
-                if (sleeve_type == null) {
-                    this.sleeve_type = "birth"
-                }
-                this.dhf = {
-                    "empathy": {
-                        "diplomacy": [1, "d8"], 
-                        "expression": [1, "d8"], 
-                        "read_person": [1, "d8"]
-                    }, 
-                    "willpower": {
-                        "composure": [1, "d8"], 
-                        "discipline": [1, "d8"], 
-                        "intimidation": [1, "d8"]
-                    }, 
-                    "acuity": {
-                        "data_analysis": [1, "d8"], 
-                        "data_engineering": [1, "d8"], 
-                        "digital_networking": [1, "d8"], 
-                        "investigation": [1, "d8"], 
-                        "mechanics": [1, "d8"], 
-                        "navigation": [1, "d8"], 
-                        "pilot": [1, "d8"], 
-                        "survival": [1, "d8"]
-                    }, 
-                    "intelligence": {
-                        "bureaucracy": [1, "d8"], 
-                        "cultures": [1, "d8"], 
-                        "engineering": [1, "d8"], 
-                        "geography": [1, "d8"], 
-                        "history": [1, "d8"], 
-                        "science": [1, "d8"], 
-                        "medicine": [1, "d8"]
-                    }
-                };
-                this.sleeve = {
-                    "strength": {
-                        "athletics": [1, "d8"], 
-                        "brawl": [1, "d8"], 
-                        "endurance": [1, "d8"], 
-                        "melee_combat": [1, "d8"], 
-                        "toughness": [1, "d8"]
-                    }, 
-                    "perception": {
-                        "detection": [1, "d8"], 
-                        "d_energy_weapons": [1, "d8"], 
-                        "firearms": [1, "d8"], 
-                        "search": [1, "d8"], 
-                        "stealth": [1, "d8"], 
-                        "throw": [1, "d8"]
-                    }
-                };
-
-            } else if (this.name == "socialite") {
-                if (sleeve_type == null) {
-                    this.sleeve_type = "birth"
-                }
-                this.dhf = {
-                    "empathy": {
-                        "diplomacy": [1, "d8"], 
-                        "expression": [1, "d8"], 
-                        "read_person": [1, "d8"]
-                    }, 
-                    "willpower": {
-                        "composure": [1, "d8"], 
-                        "discipline": [1, "d8"], 
-                        "intimidation": [1, "d8"]
-                    }, 
-                    "acuity": {
-                        "data_analysis": [1, "d8"], 
-                        "data_engineering": [1, "d8"], 
-                        "digital_networking": [1, "d8"], 
-                        "investigation": [1, "d8"], 
-                        "mechanics": [1, "d8"], 
-                        "navigation": [1, "d8"], 
-                        "pilot": [1, "d8"], 
-                        "survival": [1, "d8"]
-                    }, 
-                    "intelligence": {
-                        "bureaucracy": [1, "d8"], 
-                        "cultures": [1, "d8"], 
-                        "engineering": [1, "d8"], 
-                        "geography": [1, "d8"], 
-                        "history": [1, "d8"], 
-                        "science": [1, "d8"], 
-                        "medicine": [1, "d8"]
-                    }
-                };
-                this.sleeve = {
-                    "strength": {
-                        "athletics": [1, "d8"], 
-                        "brawl": [1, "d8"], 
-                        "endurance": [1, "d8"], 
-                        "melee_combat": [1, "d8"], 
-                        "toughness": [1, "d8"]
-                    }, 
-                    "perception": {
-                        "detection": [1, "d8"], 
-                        "d_energy_weapons": [1, "d8"], 
-                        "firearms": [1, "d8"], 
-                        "search": [1, "d8"], 
-                        "stealth": [1, "d8"], 
-                        "throw": [1, "d8"]
-                    }
-                };
-
-            } else if (this.name == "official") {
-                if (sleeve_type == null) {
-                    this.sleeve_type = "birth"
-                }
-                this.dhf = {
-                    "empathy": {
-                        "diplomacy": [1, "d8"], 
-                        "expression": [1, "d8"], 
-                        "read_person": [1, "d8"]
-                    }, 
-                    "willpower": {
-                        "composure": [1, "d8"], 
-                        "discipline": [1, "d8"], 
-                        "intimidation": [1, "d8"]
-                    }, 
-                    "acuity": {
-                        "data_analysis": [1, "d8"], 
-                        "data_engineering": [1, "d8"], 
-                        "digital_networking": [1, "d8"], 
-                        "investigation": [1, "d8"], 
-                        "mechanics": [1, "d8"], 
-                        "navigation": [1, "d8"], 
-                        "pilot": [1, "d8"], 
-                        "survival": [1, "d8"]
-                    }, 
-                    "intelligence": {
-                        "bureaucracy": [1, "d8"], 
-                        "cultures": [1, "d8"], 
-                        "engineering": [1, "d8"], 
-                        "geography": [1, "d8"], 
-                        "history": [1, "d8"], 
-                        "science": [1, "d8"], 
-                        "medicine": [1, "d8"]
-                    }
-                };
-                this.sleeve = {
-                    "strength": {
-                        "athletics": [1, "d8"], 
-                        "brawl": [1, "d8"], 
-                        "endurance": [1, "d8"], 
-                        "melee_combat": [1, "d8"], 
-                        "toughness": [1, "d8"]
-                    }, 
-                    "perception": {
-                        "detection": [1, "d8"], 
-                        "d_energy_weapons": [1, "d8"], 
-                        "firearms": [1, "d8"], 
-                        "search": [1, "d8"], 
-                        "stealth": [1, "d8"], 
-                        "throw": [1, "d8"]
-                    }
-                };
-
-            } else if (this.name == "criminal") {
-                if (sleeve_type == null) {
-                    this.sleeve_type = "synth_low"
-                }
-                this.dhf = {
-                    "empathy": {
-                        "diplomacy": [1, "d8"], 
-                        "expression": [1, "d8"], 
-                        "read_person": [1, "d8"]
-                    }, 
-                    "willpower": {
-                        "composure": [1, "d8"], 
-                        "discipline": [1, "d8"], 
-                        "intimidation": [1, "d8"]
-                    }, 
-                    "acuity": {
-                        "data_analysis": [1, "d8"], 
-                        "data_engineering": [1, "d8"], 
-                        "digital_networking": [1, "d8"], 
-                        "investigation": [1, "d8"], 
-                        "mechanics": [1, "d8"], 
-                        "navigation": [1, "d8"], 
-                        "pilot": [1, "d8"], 
-                        "survival": [1, "d8"]
-                    }, 
-                    "intelligence": {
-                        "bureaucracy": [1, "d8"], 
-                        "cultures": [1, "d8"], 
-                        "engineering": [1, "d8"], 
-                        "geography": [1, "d8"], 
-                        "history": [1, "d8"], 
-                        "science": [1, "d8"], 
-                        "medicine": [1, "d8"]
-                    }
-                };
-                this.sleeve = {
-                    "strength": {
-                        "athletics": [1, "d8"], 
-                        "brawl": [1, "d8"], 
-                        "endurance": [1, "d8"], 
-                        "melee_combat": [1, "d8"], 
-                        "toughness": [1, "d8"]
-                    }, 
-                    "perception": {
-                        "detection": [1, "d8"], 
-                        "d_energy_weapons": [1, "d8"], 
-                        "firearms": [1, "d8"], 
-                        "search": [1, "d8"], 
-                        "stealth": [1, "d8"], 
-                        "throw": [1, "d8"]
-                    }
-                };
-
-            } else if (this.name == "technician") {
-                if (sleeve_type == null) {
-                    this.sleeve_type = "birth"
-                }
-                this.dhf = {
-                    "empathy": {
-                        "diplomacy": [1, "d8"], 
-                        "expression": [1, "d8"], 
-                        "read_person": [1, "d8"]
-                    }, 
-                    "willpower": {
-                        "composure": [1, "d8"], 
-                        "discipline": [1, "d8"], 
-                        "intimidation": [1, "d8"]
-                    }, 
-                    "acuity": {
-                        "data_analysis": [1, "d8"], 
-                        "data_engineering": [1, "d8"], 
-                        "digital_networking": [1, "d8"], 
-                        "investigation": [1, "d8"], 
-                        "mechanics": [1, "d8"], 
-                        "navigation": [1, "d8"], 
-                        "pilot": [1, "d8"], 
-                        "survival": [1, "d8"]
-                    }, 
-                    "intelligence": {
-                        "bureaucracy": [1, "d8"], 
-                        "cultures": [1, "d8"], 
-                        "engineering": [1, "d8"], 
-                        "geography": [1, "d8"], 
-                        "history": [1, "d8"], 
-                        "science": [1, "d8"], 
-                        "medicine": [1, "d8"]
-                    }
-                };
-                this.sleeve = {
-                    "strength": {
-                        "athletics": [1, "d8"], 
-                        "brawl": [1, "d8"], 
-                        "endurance": [1, "d8"], 
-                        "melee_combat": [1, "d8"], 
-                        "toughness": [1, "d8"]
-                    }, 
-                    "perception": {
-                        "detection": [1, "d8"], 
-                        "d_energy_weapons": [1, "d8"], 
-                        "firearms": [1, "d8"], 
-                        "search": [1, "d8"], 
-                        "stealth": [1, "d8"], 
-                        "throw": [1, "d8"]
-                    }
-                };
-
-            } else if (this.name == "soldier") {
-                if (sleeve_type == null) {
-                    this.sleeve_type = "synth_med"
-                }
-                this.dhf = {
-                    "empathy": {
-                        "diplomacy": [1, "d8"], 
-                        "expression": [1, "d8"], 
-                        "read_person": [1, "d8"]
-                    }, 
-                    "willpower": {
-                        "composure": [1, "d8"], 
-                        "discipline": [1, "d8"], 
-                        "intimidation": [1, "d8"]
-                    }, 
-                    "acuity": {
-                        "data_analysis": [1, "d8"], 
-                        "data_engineering": [1, "d8"], 
-                        "digital_networking": [1, "d8"], 
-                        "investigation": [1, "d8"], 
-                        "mechanics": [1, "d8"], 
-                        "navigation": [1, "d8"], 
-                        "pilot": [1, "d8"], 
-                        "survival": [1, "d8"]
-                    }, 
-                    "intelligence": {
-                        "bureaucracy": [1, "d8"], 
-                        "cultures": [1, "d8"], 
-                        "engineering": [1, "d8"], 
-                        "geography": [1, "d8"], 
-                        "history": [1, "d8"], 
-                        "science": [1, "d8"], 
-                        "medicine": [1, "d8"]
-                    }
-                };
-                this.sleeve = {
-                    "strength": {
-                        "athletics": [1, "d8"], 
-                        "brawl": [1, "d8"], 
-                        "endurance": [1, "d8"], 
-                        "melee_combat": [1, "d8"], 
-                        "toughness": [1, "d8"]
-                    }, 
-                    "perception": {
-                        "detection": [1, "d8"], 
-                        "d_energy_weapons": [1, "d8"], 
-                        "firearms": [1, "d8"], 
-                        "search": [1, "d8"], 
-                        "stealth": [1, "d8"], 
-                        "throw": [1, "d8"]
-                    }
-                };
-
-            };
-        };
         this.set_dhf_attributes();
+    };
+    static set_dhf_attributes() {
+        if (sleeve_type != null) {
+            this.sleeve_type = sleeve_type
+        };
+        if (this.name == "civilian") {
+            if (sleeve_type == null) {
+                this.sleeve_type = "birth"
+            }
+            this.dhf = {
+                "empathy": {
+                    "diplomacy": [1, "d8"], 
+                    "expression": [1, "d8"], 
+                    "read_person": [1, "d8"]
+                }, 
+                "willpower": {
+                    "composure": [1, "d8"], 
+                    "discipline": [1, "d8"], 
+                    "intimidation": [1, "d8"]
+                }, 
+                "acuity": {
+                    "data_analysis": [1, "d8"], 
+                    "data_engineering": [1, "d8"], 
+                    "digital_networking": [1, "d8"], 
+                    "investigation": [1, "d8"], 
+                    "mechanics": [1, "d8"], 
+                    "navigation": [1, "d8"], 
+                    "pilot": [1, "d8"], 
+                    "survival": [1, "d8"]
+                }, 
+                "intelligence": {
+                    "bureaucracy": [1, "d8"], 
+                    "cultures": [1, "d8"], 
+                    "engineering": [1, "d8"], 
+                    "geography": [1, "d8"], 
+                    "history": [1, "d8"], 
+                    "science": [1, "d8"], 
+                    "medicine": [1, "d8"]
+                }
+            };
+            this.sleeve = {
+                "strength": {
+                    "athletics": [1, "d8"], 
+                    "brawl": [1, "d8"], 
+                    "endurance": [1, "d8"], 
+                    "melee_combat": [1, "d8"], 
+                    "toughness": [1, "d8"]
+                }, 
+                "perception": {
+                    "detection": [1, "d8"], 
+                    "d_energy_weapons": [1, "d8"], 
+                    "firearms": [1, "d8"], 
+                    "search": [1, "d8"], 
+                    "stealth": [1, "d8"], 
+                    "throw": [1, "d8"]
+                }
+            };
+
+        } else if (this.name == "socialite") {
+            if (sleeve_type == null) {
+                this.sleeve_type = "birth"
+            }
+            this.dhf = {
+                "empathy": {
+                    "diplomacy": [1, "d8"], 
+                    "expression": [1, "d8"], 
+                    "read_person": [1, "d8"]
+                }, 
+                "willpower": {
+                    "composure": [1, "d8"], 
+                    "discipline": [1, "d8"], 
+                    "intimidation": [1, "d8"]
+                }, 
+                "acuity": {
+                    "data_analysis": [1, "d8"], 
+                    "data_engineering": [1, "d8"], 
+                    "digital_networking": [1, "d8"], 
+                    "investigation": [1, "d8"], 
+                    "mechanics": [1, "d8"], 
+                    "navigation": [1, "d8"], 
+                    "pilot": [1, "d8"], 
+                    "survival": [1, "d8"]
+                }, 
+                "intelligence": {
+                    "bureaucracy": [1, "d8"], 
+                    "cultures": [1, "d8"], 
+                    "engineering": [1, "d8"], 
+                    "geography": [1, "d8"], 
+                    "history": [1, "d8"], 
+                    "science": [1, "d8"], 
+                    "medicine": [1, "d8"]
+                }
+            };
+            this.sleeve = {
+                "strength": {
+                    "athletics": [1, "d8"], 
+                    "brawl": [1, "d8"], 
+                    "endurance": [1, "d8"], 
+                    "melee_combat": [1, "d8"], 
+                    "toughness": [1, "d8"]
+                }, 
+                "perception": {
+                    "detection": [1, "d8"], 
+                    "d_energy_weapons": [1, "d8"], 
+                    "firearms": [1, "d8"], 
+                    "search": [1, "d8"], 
+                    "stealth": [1, "d8"], 
+                    "throw": [1, "d8"]
+                }
+            };
+
+        } else if (this.name == "official") {
+            if (sleeve_type == null) {
+                this.sleeve_type = "birth"
+            }
+            this.dhf = {
+                "empathy": {
+                    "diplomacy": [1, "d8"], 
+                    "expression": [1, "d8"], 
+                    "read_person": [1, "d8"]
+                }, 
+                "willpower": {
+                    "composure": [1, "d8"], 
+                    "discipline": [1, "d8"], 
+                    "intimidation": [1, "d8"]
+                }, 
+                "acuity": {
+                    "data_analysis": [1, "d8"], 
+                    "data_engineering": [1, "d8"], 
+                    "digital_networking": [1, "d8"], 
+                    "investigation": [1, "d8"], 
+                    "mechanics": [1, "d8"], 
+                    "navigation": [1, "d8"], 
+                    "pilot": [1, "d8"], 
+                    "survival": [1, "d8"]
+                }, 
+                "intelligence": {
+                    "bureaucracy": [1, "d8"], 
+                    "cultures": [1, "d8"], 
+                    "engineering": [1, "d8"], 
+                    "geography": [1, "d8"], 
+                    "history": [1, "d8"], 
+                    "science": [1, "d8"], 
+                    "medicine": [1, "d8"]
+                }
+            };
+            this.sleeve = {
+                "strength": {
+                    "athletics": [1, "d8"], 
+                    "brawl": [1, "d8"], 
+                    "endurance": [1, "d8"], 
+                    "melee_combat": [1, "d8"], 
+                    "toughness": [1, "d8"]
+                }, 
+                "perception": {
+                    "detection": [1, "d8"], 
+                    "d_energy_weapons": [1, "d8"], 
+                    "firearms": [1, "d8"], 
+                    "search": [1, "d8"], 
+                    "stealth": [1, "d8"], 
+                    "throw": [1, "d8"]
+                }
+            };
+
+        } else if (this.name == "criminal") {
+            if (sleeve_type == null) {
+                this.sleeve_type = "synth_low"
+            }
+            this.dhf = {
+                "empathy": {
+                    "diplomacy": [1, "d8"], 
+                    "expression": [1, "d8"], 
+                    "read_person": [1, "d8"]
+                }, 
+                "willpower": {
+                    "composure": [1, "d8"], 
+                    "discipline": [1, "d8"], 
+                    "intimidation": [1, "d8"]
+                }, 
+                "acuity": {
+                    "data_analysis": [1, "d8"], 
+                    "data_engineering": [1, "d8"], 
+                    "digital_networking": [1, "d8"], 
+                    "investigation": [1, "d8"], 
+                    "mechanics": [1, "d8"], 
+                    "navigation": [1, "d8"], 
+                    "pilot": [1, "d8"], 
+                    "survival": [1, "d8"]
+                }, 
+                "intelligence": {
+                    "bureaucracy": [1, "d8"], 
+                    "cultures": [1, "d8"], 
+                    "engineering": [1, "d8"], 
+                    "geography": [1, "d8"], 
+                    "history": [1, "d8"], 
+                    "science": [1, "d8"], 
+                    "medicine": [1, "d8"]
+                }
+            };
+            this.sleeve = {
+                "strength": {
+                    "athletics": [1, "d8"], 
+                    "brawl": [1, "d8"], 
+                    "endurance": [1, "d8"], 
+                    "melee_combat": [1, "d8"], 
+                    "toughness": [1, "d8"]
+                }, 
+                "perception": {
+                    "detection": [1, "d8"], 
+                    "d_energy_weapons": [1, "d8"], 
+                    "firearms": [1, "d8"], 
+                    "search": [1, "d8"], 
+                    "stealth": [1, "d8"], 
+                    "throw": [1, "d8"]
+                }
+            };
+
+        } else if (this.name == "technician") {
+            if (sleeve_type == null) {
+                this.sleeve_type = "birth"
+            }
+            this.dhf = {
+                "empathy": {
+                    "diplomacy": [1, "d8"], 
+                    "expression": [1, "d8"], 
+                    "read_person": [1, "d8"]
+                }, 
+                "willpower": {
+                    "composure": [1, "d8"], 
+                    "discipline": [1, "d8"], 
+                    "intimidation": [1, "d8"]
+                }, 
+                "acuity": {
+                    "data_analysis": [1, "d8"], 
+                    "data_engineering": [1, "d8"], 
+                    "digital_networking": [1, "d8"], 
+                    "investigation": [1, "d8"], 
+                    "mechanics": [1, "d8"], 
+                    "navigation": [1, "d8"], 
+                    "pilot": [1, "d8"], 
+                    "survival": [1, "d8"]
+                }, 
+                "intelligence": {
+                    "bureaucracy": [1, "d8"], 
+                    "cultures": [1, "d8"], 
+                    "engineering": [1, "d8"], 
+                    "geography": [1, "d8"], 
+                    "history": [1, "d8"], 
+                    "science": [1, "d8"], 
+                    "medicine": [1, "d8"]
+                }
+            };
+            this.sleeve = {
+                "strength": {
+                    "athletics": [1, "d8"], 
+                    "brawl": [1, "d8"], 
+                    "endurance": [1, "d8"], 
+                    "melee_combat": [1, "d8"], 
+                    "toughness": [1, "d8"]
+                }, 
+                "perception": {
+                    "detection": [1, "d8"], 
+                    "d_energy_weapons": [1, "d8"], 
+                    "firearms": [1, "d8"], 
+                    "search": [1, "d8"], 
+                    "stealth": [1, "d8"], 
+                    "throw": [1, "d8"]
+                }
+            };
+
+        } else if (this.name == "soldier") {
+            if (sleeve_type == null) {
+                this.sleeve_type = "synth_med"
+            }
+            this.dhf = {
+                "empathy": {
+                    "diplomacy": [1, "d8"], 
+                    "expression": [1, "d8"], 
+                    "read_person": [1, "d8"]
+                }, 
+                "willpower": {
+                    "composure": [1, "d8"], 
+                    "discipline": [1, "d8"], 
+                    "intimidation": [1, "d8"]
+                }, 
+                "acuity": {
+                    "data_analysis": [1, "d8"], 
+                    "data_engineering": [1, "d8"], 
+                    "digital_networking": [1, "d8"], 
+                    "investigation": [1, "d8"], 
+                    "mechanics": [1, "d8"], 
+                    "navigation": [1, "d8"], 
+                    "pilot": [1, "d8"], 
+                    "survival": [1, "d8"]
+                }, 
+                "intelligence": {
+                    "bureaucracy": [1, "d8"], 
+                    "cultures": [1, "d8"], 
+                    "engineering": [1, "d8"], 
+                    "geography": [1, "d8"], 
+                    "history": [1, "d8"], 
+                    "science": [1, "d8"], 
+                    "medicine": [1, "d8"]
+                }
+            };
+            this.sleeve = {
+                "strength": {
+                    "athletics": [1, "d8"], 
+                    "brawl": [1, "d8"], 
+                    "endurance": [1, "d8"], 
+                    "melee_combat": [1, "d8"], 
+                    "toughness": [1, "d8"]
+                }, 
+                "perception": {
+                    "detection": [1, "d8"], 
+                    "d_energy_weapons": [1, "d8"], 
+                    "firearms": [1, "d8"], 
+                    "search": [1, "d8"], 
+                    "stealth": [1, "d8"], 
+                    "throw": [1, "d8"]
+                }
+            };
+
+        };
     };
 };
 
