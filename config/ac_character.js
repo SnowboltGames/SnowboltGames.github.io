@@ -41,6 +41,6 @@ const Player = class {
         this.archetype = new Archetype(archetype);
         this.dhf = new DHF({});
         this.sleeve = new Sleeve({});
-        this.bank_account = BankAccount(100, 0);
+        this.bank_account = new BankAccount(100, 0);
     }
 };
