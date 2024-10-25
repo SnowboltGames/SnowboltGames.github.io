@@ -4,14 +4,17 @@ const Attributes = class {
             this.strength = attribute_data["strength"]
             this.perception = attribute_data["perception"]
             console.log("Attributes Type:", attribute_type, "Loaded");
+        
         } else if (attribute_type == "dhf") {
             this.empathy = attribute_data["empathy"]
             this.willpower = attribute_data["willpower"]
             this.acuity = attribute_data["acuity"]
             this.intelligence = attribute_data["intelligence"]
             console.log("Attributes Type:", attribute_type, "Loaded");
+        
         } else {
-            console.log();
+            console.log("NONE");
+        
         };
     }
 };
