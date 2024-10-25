@@ -1,0 +1,394 @@
+{
+    "zara_katsumi": {
+        "dhf_name": "Zara Katsumi", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Former Envoy, now Mercenary", 
+        "personality": "Cold, calculating, prefers to work alone.", 
+        "backstory": "Formerly an elite Envoy, Zara left after her stack was corrupted in a failed mission. Now she works for the highest bidder, avoiding loyalty and trust.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "finn_callister": {
+        "dhf_name": "Finn Callister", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Protectorate Officer", 
+        "personality": "Idealistic but strict.", 
+        "backstory": "Finn is a rising star in the Protectorate, determined to keep the peace but slowly realizing the corruption around him.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "liora_kellar": {
+        "dhf_name": "Liora Kellar", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Biohacker and Sleeving Technician", 
+        "personality": "Quiet, reclusive, a tech genius with a dark past.", 
+        "backstory": "Liora runs an underground operation where she modifies bodies and sleeves, often for dangerous clients.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "kade_ryder": {
+        "dhf_name": "Kade Ryder", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Ex-Military, Bodyguard-for-Hire", 
+        "personality": "Stoic, disciplined, follows orders to a fault.", 
+        "backstory": "Kade was dishonorably discharged after a mission went wrong, and now works in the shadows, protecting clients with questionable morals.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "eirik_stravos": {
+        "dhf_name": "Eirik Stravos", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Corporate Agent", 
+        "personality": "Ruthless, willing to go to extreme lengths for his employers.", 
+        "backstory": "Eirik has worked for various megacorporations, doing their dirty work to rise to the top. He doesn’t hesitate to sleeve-hop if it benefits his mission.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "alyssa_veran": {
+        "dhf_name": "Alyssa Veran", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Data Broker", 
+        "personality": "Playful yet highly dangerous.", 
+        "backstory": "Alyssa sells secrets to the highest bidder, manipulating powerful figures in the process. She has an unmatched network of contacts across worlds.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "jericho_voss": {
+        "dhf_name": "Jericho Voss", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Rogue AI Specialist", 
+        "personality": "Quiet, mysterious, almost emotionless.", 
+        "backstory": "Jericho's mind was once uploaded to an experimental AI system, leaving him half-machine. Now, he uses his skills to fight for both AI rights and his own survival.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "barik_volkov": {
+        "dhf_name": "Barik Volkov", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Corporate Exec, Former Military Strategist", 
+        "personality": "Calculating, logical.", 
+        "backstory": "Barik now uses his strategic mind for corporate warfare, orchestrating attacks on competitors and managing hostile takeovers.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "naeva_morrigan": {
+        "dhf_name": "Naeva Morrigan", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Rebel Leader", 
+        "personality": "Fierce, uncompromising.", 
+        "backstory": "Naeva leads an underground movement against the Protectorate, determined to overthrow the oppressive regime and establish true freedom.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "ronin_jax": {
+        "dhf_name": "Ronin Jax", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Street Enforcer, Ex-Yakuza", 
+        "personality": "Silent, follows a strict code of honor.", 
+        "backstory": "Once part of the Yakuza, Ronin left after being betrayed by his clan. Now, he enforces the laws of the street, but only on his own terms.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+
+    "vex_alaric": {
+        "dhf_name": "Vex Alaric", 
+        "dhf_age": "", 
+        "planet_of_origin": "Harlan's World", 
+        "occupation": "Sleeving Courier", 
+        "personality": "Fast-talking, always on the move.", 
+        "backstory": "Vex transports illicit stacks and stolen sleeves across sectors, taking advantage of the chaotic post-Elders world.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "damien_falk": {
+        "dhf_name": "Damien Falk", 
+        "dhf_age": "", 
+        "planet_of_origin": "Earth", 
+        "occupation": "Protectorate Investigator", 
+        "personality": "Analytical, haunted by past failures.", 
+        "backstory": "Damien is a seasoned investigator known for solving impossible cases. However, he carries the weight of a case that led to his partner’s unsleeving.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "garth_duvall": {
+        "dhf_name": "Garth Duvall", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Bounty Hunter", 
+        "personality": "Grizzled, no-nonsense.", 
+        "backstory": "Garth is a legendary bounty hunter, feared for his efficiency and lack of mercy. He specializes in tracking down those who try to cheat death by jumping between sleeves.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "leon_vey": {
+        "dhf_name": "Leon Vey", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "High-Profile Bodyguard", 
+        "personality": "Confident, protective, and loyal to a fault.", 
+        "backstory": "Leon has made a career out of protecting the elite, specializing in high-threat environments. He has saved the lives of multiple high-ranking officials.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "elena_rios": {
+        "dhf_name": "Dr. Elena Rios", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Biotech Engineer", 
+        "personality": "Determined, intellectual.", 
+        "backstory": "Dr. Rios developed revolutionary technology for the Protectorate, but she now works in the black market, selling enhancements to the highest bidder.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "vero_desantos": {
+        "dhf_name": "Vero DeSantos", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Underground Journalist", 
+        "personality": "Passionate about the truth, unafraid of danger.", 
+        "backstory": "Vero risks his life exposing corporate and government secrets, distributing them through encrypted channels to the masses.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "kael_winters": {
+        "dhf_name": "Kael Winters", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Rogue Envoy", 
+        "personality": "Cool under pressure, detached.", 
+        "backstory": "Trained as an Envoy, Kael defected and now freelances for underground clients, leveraging his unparalleled combat skills to survive.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "rika_navarro": {
+        "dhf_name": "Captain Rika Navarro", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Smuggler", 
+        "personality": "Witty, daring, enjoys the thrill of danger.", 
+        "backstory": "Rika commands a smuggling ship that operates on the fringes of the Protectorate's jurisdiction. Her crew would die for her, and she for them.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "alden_graves": {
+        "dhf_name": "Dr. Alden Graves", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Cyberneticist", 
+        "personality": "Cold, calculating, more focused on technology than people.", 
+        "backstory": "Dr. Graves developed some of the most advanced combat implants used by the Protectorate, but his moral compass has eroded after years of experimentation on live subjects.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "tess_kaine": {
+        "dhf_name": "Tess Kaine", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Corporate Spy", 
+        "personality": "Manipulative, expert in deception.", 
+        "backstory": "Tess infiltrates rival companies, stealing technology and data for her employers. She thrives in a world of lies and betrayal.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    
+    "wesley_greer": {
+        "dhf_name": "Wesley Greer", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Corporate Security Specialist", 
+        "personality": "Stubborn, determined, but deeply loyal to his employer.", 
+        "backstory": "Wesley oversees high-profile security contracts for top corporate executives. His loyalty has cost him personal relationships, but he protects his clients at all costs.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "celeste_quinn": {
+        "dhf_name": "Celeste Quinn", 
+        "dhf_age": "", 
+        "planet_of_origin": "Earth", 
+        "occupation": "AI Consultant", 
+        "personality": "Brilliant, quirky, obsessed with synthetic consciousness.", 
+        "backstory": "Celeste has spent her life advancing AI technology, working with rogue AIs to understand their potential, often bending the law in the process.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "zadie_lacroix": {
+        "dhf_name": "Zadie Lacroix", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Corporate Mercenary", 
+        "personality": "Deadly and ruthless, enjoys the fight.", 
+        "backstory": "Zadie is a top-tier corporate mercenary, hired for missions where violence is guaranteed. She excels in hand-to-hand combat and has a reputation for leaving no survivors.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "aric_7": {
+        "dhf_name": "Aric-7", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Combat Sleeved AI", 
+        "personality": "Emotionless, tactical.", 
+        "backstory": "Aric-7 is an AI that has taken control of a human sleeve to serve as a soldier-for-hire. It is calculating and cold, carrying out missions with brutal efficiency.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "tobias_reed": {
+        "dhf_name": "Col. Tobias Reed", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Protectorate Officer", 
+        "personality": "Disciplined, old-school military.", 
+        "backstory": "Tobias rose through the ranks of the Protectorate and, after numerous sleeves, now commands a small fleet. He’s a battle-hardened officer, almost always wearing a synthetic sleeve, and has little patience for insubordination.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "kane_ex": {
+        "dhf_name": "Kane-EX", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Kane-EX", 
+        "personality": "Intelligent, precise.", 
+        "backstory": "Kane is a synthetic sleeve formerly belonging to an envoy, now fighting for the underground rebellion. His body is more machine than human, but his loyalty remains strong.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "ezra_salter": {
+        "dhf_name": "Dr. Ezra Salter", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Biomechanical Engineer", 
+        "personality": "Calculating, obsessed with longevity.", 
+        "backstory": "Dr. Volkov has experimented with biomechanical sleeving and body swapping to find a path to immortality, even if it means destroying human lives in the process.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "niara_locke": {
+        "dhf_name": "Niara Locke", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Rebel Assassin", 
+        "personality": "Cold, focused, driven by revenge.", 
+        "backstory": "After her family was killed by the Protectorate, Niara joined the rebellion as an assassin, vowing to take down every person responsible.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "dex_avari": {
+        "dhf_name": "Dex Avari", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Hacker-for-Hire", 
+        "personality": "Arrogant, confident, enjoys breaking the rules.", 
+        "backstory": "Dex is a skilled hacker who specializes in breaking into corporate and governmental systems, working for whoever pays the most.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "markus_dray": {
+        "dhf_name": "Markus Dray", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Private Investigator", 
+        "personality": "World-weary, cynical, but with a strong sense of justice.", 
+        "backstory": "Markus is an ex-cop turned PI, solving cases no one else will touch. He operates in the morally gray areas of society, but his heart is in the right place.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }
+}
