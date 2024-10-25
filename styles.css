@@ -115,19 +115,19 @@ a.navbar-text-link:hover {
 }
 .header-bar {
   background-color: #3C3C3C;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 10% 20px 10%;
   display: inline-flex;
   width: -webkit-fill-available;
   height: auto;
 }
 .main-content {
-  padding: 20px 20px 20px 20px;
+  padding: 20px 10% 20px 10%;
   width: -webkit-fill-available;
   height: auto;
 }
 .footer-bar {
   background-color: #3C3C3C;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 10% 20px 10%;
   display: block;
   width: -webkit-fill-available;
   height: auto;
