@@ -1,0 +1,16 @@
+{
+    "birth": {
+        "name": "Birth", 
+        "base_health": [2, "d6", 13]
+    }, 
+    "synth_low": {
+        "name": "Synthetic (Low)", 
+        "base_health": [2, "d6", 13]
+    }, 
+    "synth_med": {"name": "Synthetic (Medium)", 
+        "base_health": [2, "d6", 13]
+    }, 
+    "synth_high": {"name": "Synthetic (High)", 
+        "base_health": [2, "d6", 13]
+    }
+}
