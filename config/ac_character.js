@@ -16,20 +16,20 @@ const Attributes = class {
             console.log("NONE");
         
         };
-    }
+    };
 };
 
 const DHF = class {
     constructor(dataset) {
         this.attributes = new Attributes("dhf", dataset);
-    }
+    };
 };
 
 const Sleeve = class {
     constructor(sleeve_type, dataset) {
         this.sleeve_type = sleeve_type
         this.attributes = new Attributes("sleeve", dataset);
-    }
+    };
 };
 
 const Archetype = class {
@@ -363,14 +363,14 @@ const Archetype = class {
             };
         };
         this.set_dhf_attributes();
-    }
+    };
 };
 
 const BankAccount = class {
     constructor(start_balance, credit_limit) {
         this.balance = start_balance;
         this.credit_limit = credit_limit;
-    }
+    };
 };
 
 const Player = class {
@@ -380,5 +380,5 @@ const Player = class {
         this.dhf = new DHF(this.archetype.dhf);
         this.sleeve = new Sleeve(this.archetype.sleeve_type, this.archetype.sleeve);
         this.bank_account = new BankAccount(100, 0);
-    }
+    };
 };
