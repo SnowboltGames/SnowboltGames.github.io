@@ -23,7 +23,8 @@ const DHF = class {
 };
 
 const Sleeve = class {
-    constructor(dataset) {
+    constructor(sleeve_type, dataset) {
+        this.sleeve_type = sleeve_type
         this.attributes = new Attributes("sleeve", dataset);
     }
 };
@@ -31,6 +32,37 @@ const Sleeve = class {
 const Archetype = class {
     constructor(archetype_name) {
         this.name = archetype_name;
+        this.dhf = null;
+        this.sleeve = null;
+        this.set_dhf_attributes = function() {
+            if (this.name == "civilian") {
+                _da = {
+                    "": "", 
+                    "": "", 
+                    "": "", 
+                    "": ""
+                }
+                _sa = {
+                    "": "", 
+                    "": ""
+                }
+                this.sleeve = Sleeve(this.name, _sa)
+                this.dhf = DHF(_da)
+            } else if (this.name == "socialite") {
+
+            } else if (this.name == "official") {
+
+            } else if (this.name == "criminal") {
+
+            } else if (this.name == "technician") {
+
+            } else if (this.name == "soldier") {
+
+            } else {
+
+            }
+        };
+        this.set_dhf_attributes();
     }
 };
 
