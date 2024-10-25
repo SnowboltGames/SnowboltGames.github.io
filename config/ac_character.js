@@ -36,7 +36,7 @@ const Archetype = class {
         this.sleeve = null;
         this.set_dhf_attributes = function() {
             if (this.name == "civilian") {
-                _da = {
+                this.dhf = {
                     "empathy": {
                         "diplomacy": [1, "d8"], 
                         "expression": [1, "d8"], 
@@ -67,7 +67,7 @@ const Archetype = class {
                         "medicine": [1, "d8"]
                     }
                 };
-                _sa = {
+                this.sleeve = {
                     "strength": {
                         "athletics": [1, "d8"], 
                         "brawl": [1, "d8"], 
@@ -84,11 +84,9 @@ const Archetype = class {
                         "throw": [1, "d8"]
                     }
                 };
-                this.sleeve = Sleeve(this.name, _sa);
-                this.dhf = DHF(_da);
 
             } else if (this.name == "socialite") {
-                _da = {
+                this.dhf = {
                     "empathy": {
                         "diplomacy": [1, "d8"], 
                         "expression": [1, "d8"], 
@@ -119,7 +117,7 @@ const Archetype = class {
                         "medicine": [1, "d8"]
                     }
                 };
-                _sa = {
+                this.sleeve = {
                     "strength": {
                         "athletics": [1, "d8"], 
                         "brawl": [1, "d8"], 
@@ -136,11 +134,9 @@ const Archetype = class {
                         "throw": [1, "d8"]
                     }
                 };
-                this.sleeve = Sleeve(this.name, _sa);
-                this.dhf = DHF(_da);
 
             } else if (this.name == "official") {
-                _da = {
+                this.dhf = {
                     "empathy": {
                         "diplomacy": [1, "d8"], 
                         "expression": [1, "d8"], 
@@ -171,7 +167,7 @@ const Archetype = class {
                         "medicine": [1, "d8"]
                     }
                 };
-                _sa = {
+                this.sleeve = {
                     "strength": {
                         "athletics": [1, "d8"], 
                         "brawl": [1, "d8"], 
@@ -188,11 +184,9 @@ const Archetype = class {
                         "throw": [1, "d8"]
                     }
                 };
-                this.sleeve = Sleeve(this.name, _sa);
-                this.dhf = DHF(_da);
 
             } else if (this.name == "criminal") {
-                _da = {
+                this.dhf = {
                     "empathy": {
                         "diplomacy": [1, "d8"], 
                         "expression": [1, "d8"], 
@@ -223,7 +217,7 @@ const Archetype = class {
                         "medicine": [1, "d8"]
                     }
                 };
-                _sa = {
+                this.sleeve = {
                     "strength": {
                         "athletics": [1, "d8"], 
                         "brawl": [1, "d8"], 
@@ -240,11 +234,9 @@ const Archetype = class {
                         "throw": [1, "d8"]
                     }
                 };
-                this.sleeve = Sleeve(this.name, _sa);
-                this.dhf = DHF(_da);
 
             } else if (this.name == "technician") {
-                _da = {
+                this.dhf = {
                     "empathy": {
                         "diplomacy": [1, "d8"], 
                         "expression": [1, "d8"], 
@@ -275,7 +267,7 @@ const Archetype = class {
                         "medicine": [1, "d8"]
                     }
                 };
-                _sa = {
+                this.sleeve = {
                     "strength": {
                         "athletics": [1, "d8"], 
                         "brawl": [1, "d8"], 
@@ -292,11 +284,9 @@ const Archetype = class {
                         "throw": [1, "d8"]
                     }
                 };
-                this.sleeve = Sleeve(this.name, _sa);
-                this.dhf = DHF(_da);
 
             } else if (this.name == "soldier") {
-                _da = {
+                this.dhf = {
                     "empathy": {
                         "diplomacy": [1, "d8"], 
                         "expression": [1, "d8"], 
@@ -327,7 +317,7 @@ const Archetype = class {
                         "medicine": [1, "d8"]
                     }
                 };
-                _sa = {
+                this.sleeve = {
                     "strength": {
                         "athletics": [1, "d8"], 
                         "brawl": [1, "d8"], 
@@ -344,8 +334,6 @@ const Archetype = class {
                         "throw": [1, "d8"]
                     }
                 };
-                this.sleeve = Sleeve(this.name, _sa);
-                this.dhf = DHF(_da);
 
             };
         };
@@ -364,8 +352,8 @@ const Player = class {
     constructor(name, archetype) {
         this.name = name;
         this.archetype = new Archetype(archetype);
-        this.dhf = new DHF({"empathy": 0, "willpower": 0, "acuity": 0, "intelligence": 0});
-        this.sleeve = new Sleeve({"strength": 0, "perception": 0});
+        this.dhf = new DHF(this.archetype.dhf);
+        this.sleeve = new Sleeve(this.archetype.sleeve);
         this.bank_account = new BankAccount(100, 0);
     }
 };
