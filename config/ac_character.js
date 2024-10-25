@@ -22,15 +22,15 @@ const Attributes = class {
 };
 
 const DHF = class {
-    constructor(dataset) {
-        this.attributes = new Attributes("dhf", dataset);
+    constructor(dhf_dataset) {
+        this.attributes = new Attributes("dhf", dhf_dataset);
     };
 };
 
 const Sleeve = class {
-    constructor(sleeve_type, dataset) {
+    constructor(sleeve_type, sleeve_dataset) {
         this.sleeve_type = sleeve_type
-        this.attributes = new Attributes("sleeve", dataset);
+        this.attributes = new Attributes("sleeve", sleeve_dataset);
     };
 };
 
@@ -40,7 +40,7 @@ const Archetype = class {
         this.name = archetype_name;
         this.dhf = null;
         this.sleeve = null;
-        this.set_dhf_attributes = function() {
+        this.set_dhf_attributes = new function() {
             if (sleeve_type != null) {
                 this.sleeve_type = sleeve_type
             }
