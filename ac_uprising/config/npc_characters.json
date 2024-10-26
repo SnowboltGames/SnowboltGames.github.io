@@ -330,7 +330,7 @@
         "dhf_name": "Kane-EX", 
         "dhf_age": "", 
         "planet_of_origin": "", 
-        "occupation": "Kane-EX", 
+        "occupation": "Rebel Sympathizer", 
         "personality": "Intelligent, precise.", 
         "backstory": "Kane is a synthetic sleeve formerly belonging to an envoy, now fighting for the underground rebellion. His body is more machine than human, but his loyalty remains strong.", 
         "sleeve_type": "", 
@@ -385,6 +385,85 @@
         "occupation": "Private Investigator", 
         "personality": "World-weary, cynical, but with a strong sense of justice.", 
         "backstory": "Markus is an ex-cop turned PI, solving cases no one else will touch. He operates in the morally gray areas of society, but his heart is in the right place.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+
+    "sylas_vale": {
+        "dhf_name": "Sylas Vale", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Corporate Hitman", 
+        "personality": "Silent, deadly, prefers efficiency.", 
+        "backstory": "Sylas works exclusively for corporate clients, taking out enemies and rivals with precision. He is known for never missing his target.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "maya_rook": {
+        "dhf_name": "Maya Rook", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Ex-Military, Underground Fighter", 
+        "personality": "Bold, fierce, always ready for a fight.", 
+        "backstory": "Maya was forced out of the military and now fights in illegal underground arenas. Her skills are unmatched, and she has a reputation for leaving no challengers standing.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "quinn_valen": {
+        "dhf_name": "Quinn 'Blaze' Valen", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Rogue Sleeving Technician", 
+        "personality": "Cynical, a master of improvisation.", 
+        "backstory": "Quinn specializes in off-the-grid sleeving and resleeving operations, particularly for fugitives and rebels trying to escape the Protectorate’s reach.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "rhea_torran": {
+        "dhf_name": "Rhea Torran", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Pilot, Ex-Rebel", 
+        "personality": "Quiet, reserved, haunted by her past.", 
+        "backstory": "Rhea was once a skilled pilot for the rebel forces, but after her faction was defeated, she went into hiding, flying smuggling operations to make ends meet.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "nadia_khoury": {
+        "dhf_name": "Nadia Khoury", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Elite Hacker", 
+        "personality": "Sarcastic, loves a challenge.", 
+        "backstory": "Nadia is known for breaking into top-tier corporate systems, running a network of freelance hackers that operate in the deep web.", 
+        "sleeve_type": "", 
+        "financials": {
+            "balance": 0, 
+            "credit_limit": 0
+        }
+    }, 
+    "alana_sorrell": {
+        "dhf_name": "Alana Sorrell", 
+        "dhf_age": "", 
+        "planet_of_origin": "", 
+        "occupation": "Ex-Envoy Commander", 
+        "personality": "Disciplined, strategic, but carries a hidden sadness.", 
+        "backstory": "Alana led elite Envoy troops before disappearing after a mission gone wrong. She now works in the shadows, trying to stay one step ahead of her past.", 
         "sleeve_type": "", 
         "financials": {
             "balance": 0, 
