@@ -381,11 +381,11 @@ const BankAccount = class {
     get_balance = function() {
         if (this.balance < 1000) {
             return ""+this.balance+" (μCr)";
-        } else if (this.balance < 1000000) {
+        } else if (this.balance <= 1000000) {
             return ""+this.balance/1000+" (Cr)";
-        } else if (this.balance < 1000000000) {
+        } else if (this.balance <= 1000000000) {
             return ""+this.balance/1000000+" (MCr)";
-        } else if (this.balance >= 1000000000) {
+        } else if (this.balance > 1000000000) {
             return ""+this.balance/1000000000+" (GCr)";
         };
     };
