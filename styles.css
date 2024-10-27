@@ -126,6 +126,8 @@ a.navbar-text-link:hover {
   height: auto;
   background-color: #e9e9e9;
   border-radius: 10px;
+  padding: 25px;
+  color: #343434;
 }
 .footer-bar {
   background-color: #3C3C3C;
