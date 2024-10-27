@@ -411,6 +411,12 @@ const BankAccount = class {
     };
 };
 
+function replace_sleeve(player, sleeve_value) {
+    let new_sleeve_data = new ReplacementSleeve(sleeve_value);
+    let new_sleeve = Sleeve(new_sleeve_data.sleeve_type, new_sleeve_data.sleeve_data);
+    player.sleeve = new_sleeve;
+};
+
 const Player = class {
     constructor(name, archetype) {
         this.name = name;

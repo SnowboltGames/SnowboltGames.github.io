@@ -4,6 +4,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
+        <script src="ac_uprising/js/ac_defaults.js" type="text/javascript"></script>
         <script src="ac_uprising/js/ac_character.js" type="text/javascript"></script>
         <link rel="icon" type="image/png" href="assets/sg_logo.png" />
         <title>Snowbolt Games | Altered Carbon: Uprising</title>
@@ -34,10 +35,12 @@
                 let player = new Player("Test Player Name", "soldier");
                 player.bank_account.add_balance(20, "KCr");
                 player.bank_account.add_balance(1, "Cr");
+                replace_sleeve(player, 3);
             </script>
             <p><u>Altered Carbon: Uprising</u></p><br />
             <p>Player Name : <script>document.write(player.name);</script></p>
             <p>Player Archetype : <script>document.write(player.archetype.name);</script></p>
+            <p>Player Sleeve Type : <script>document.write(player.sleeve.sleeve_type);</script></p>
             <p>Credit Balance : <script>document.write(player.bank_account.get_balance());</script></p>
         </div>
         <div class="footer-bar">
