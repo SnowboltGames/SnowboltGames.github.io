@@ -366,10 +366,46 @@ const Archetype = class {
     };
 };
 
+const UNCredit = class {
+    constructor(denomination, credit_type) {
+        this.denomination = denomination;
+        this.credit_type = credit_type;
+    };
+};
+
 const BankAccount = class {
     constructor(start_balance, credit_limit) {
         this.balance = start_balance;
         this.credit_limit = credit_limit;
+    };
+    get_balance = function() {
+        if (this.balance < 1000) {
+            return ""+this.balance/1000+" (μCr)";
+        } else if (this.balance >= 1000) {
+            return ""+this.balance/1000+" (Cr)";
+        } else if (this.balance >= 1000000) {
+            return ""+this.balance/1000000+" (MCr)";
+        } else if (this.balance >= 1000000000) {
+            return ""+this.balance/1000000000+" (GCr)";
+        };
+    };
+    add_balance = function(amount, credit_type) {
+        _uncr = new UNCredit(amount, credit_type);
+        if (credit_type == "μCr") {
+            this.balance+=amount;
+        } else if (credit_type == "Cr") {
+            _cr = amount*1000;
+            this.balance+=_cr
+        } else if (credit_type == "KCr") {
+            _cr = amount*1000000;
+            this.balance+=_cr;
+        } else if (credit_type == "MCr") {
+            _cr = amount*1000000000;
+            this.balance+=_cr;
+        } else if (credit_type == "GCr") {
+            _cr = amount*1000000000000;
+            this.balance+=_cr;
+        };
     };
 };
 
