@@ -1,4 +1,4 @@
-const Attributes = class {
+var Attributes = class {
     constructor(attribute_type, attribute_data) {
         if (attribute_type == "sleeve") {
             console.log(attribute_data)
@@ -40,7 +40,7 @@ const Archetype = class {
         this.name = archetype_name;
         this.dhf = null;
         this.sleeve = null;
-        
+
         if (sleeve_type != null) {
             this.sleeve_type = sleeve_type
         };
