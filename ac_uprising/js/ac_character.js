@@ -391,19 +391,19 @@ const BankAccount = class {
     };
     add_balance = function(amount, credit_type) {
         if (credit_type == "μCr") {
-            _cr = amount/1000;
+            var _cr = amount/1000;
             this.balance+=amount;
         } else if (credit_type == "Cr") {
-            _cr = amount*1000;
+            var _cr = amount*1000;
             this.balance+=_cr;
         } else if (credit_type == "KCr") {
-            _cr = amount*1000000;
+            var _cr = amount*1000000;
             this.balance+=_cr;
         } else if (credit_type == "MCr") {
-            _cr = amount*1000000000;
+            var _cr = amount*1000000000;
             this.balance+=_cr;
         } else if (credit_type == "GCr") {
-            _cr = amount*1000000000000;
+            var _cr = amount*1000000000000;
             this.balance+=_cr;
         };
     };
