@@ -1,4 +1,4 @@
-export default class RelacementSleeve {
+export class RelacementSleeve {
     constructor(sleeve_value) {
         if (sleeve_value == 0) {
             this.sleeve_type = "natal";

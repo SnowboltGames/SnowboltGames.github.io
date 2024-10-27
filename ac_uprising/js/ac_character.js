@@ -1,4 +1,4 @@
-import ReplacementSleeve from './ac_defaults.js';
+import {ReplacementSleeve} from './ac_defaults.js';
 
 var Attributes = class {
     constructor(attribute_type, attribute_data) {
@@ -414,7 +414,7 @@ export function replace_sleeve(player, sleeve_value) {
     player.sleeve = new_sleeve;
 };
 
-export default class Player {
+export class Player {
     constructor(name, archetype) {
         this.name = name;
         this.archetype = new Archetype(null, archetype);
