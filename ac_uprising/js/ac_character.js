@@ -40,9 +40,7 @@ const Archetype = class {
         this.name = archetype_name;
         this.dhf = null;
         this.sleeve = null;
-        set_dhf_attributes();
-    };
-    static set_dhf_attributes = function() {
+        
         if (sleeve_type != null) {
             this.sleeve_type = sleeve_type
         };
