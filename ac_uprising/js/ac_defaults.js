@@ -79,3 +79,7 @@ export class RelacementSleeve {
         };
     };
 };
+
+module.exports = {
+    RelacementSleeve
+};
