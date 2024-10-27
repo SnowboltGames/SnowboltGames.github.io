@@ -376,7 +376,7 @@ const BankAccount = class {
 const Player = class {
     constructor(name, archetype) {
         this.name = name;
-        this.archetype = new Archetype(archetype);
+        this.archetype = new Archetype(null, archetype);
         this.dhf = new DHF(this.archetype.dhf);
         this.sleeve = new Sleeve(this.archetype.sleeve_type, this.archetype.sleeve);
         this.bank_account = new BankAccount(100, 0);
