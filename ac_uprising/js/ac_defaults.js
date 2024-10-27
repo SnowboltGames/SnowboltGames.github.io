@@ -1,4 +1,4 @@
-const ReplacementSleeve = class {
+export const ReplacementSleeve = class {
     constructor(sleeve_value) {
         if (sleeve_value == 0) {
             this.sleeve_type = "natal";
@@ -78,8 +78,4 @@ const ReplacementSleeve = class {
             };
         };
     };
-};
-
-module.exports = {
-    RelacementSleeve
 };
