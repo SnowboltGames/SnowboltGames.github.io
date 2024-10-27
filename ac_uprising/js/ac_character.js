@@ -1,13 +1,11 @@
 var Attributes = class {
     constructor(attribute_type, attribute_data) {
         if (attribute_type == "sleeve") {
-            console.log(attribute_data)
             this.strength = attribute_data["strength"]
             this.perception = attribute_data["perception"]
             console.log("Attributes Type:", attribute_type, "Loaded");
         
         } else if (attribute_type == "dhf") {
-            console.log(attribute_data)
             this.empathy = attribute_data["empathy"]
             this.willpower = attribute_data["willpower"]
             this.acuity = attribute_data["acuity"]
@@ -15,7 +13,7 @@ var Attributes = class {
             console.log("Attributes Type:", attribute_type, "Loaded");
         
         } else {
-            console.log("NONE");
+            console.log("Attributes Not Loaded");
         
         };
     };
