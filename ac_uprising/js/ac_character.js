@@ -425,3 +425,8 @@ const Player = class {
         console.log(this);
     };
 };
+
+export {
+    replace_sleeve, 
+    Player
+};
