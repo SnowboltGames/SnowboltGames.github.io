@@ -1,13 +1,13 @@
 var Attributes = class {
     constructor(attribute_type, attribute_data) {
         if (attribute_type == "sleeve") {
-            console.log(attribute_data)
+            // console.log(attribute_data)
             this.strength = attribute_data["strength"]
             this.perception = attribute_data["perception"]
             console.log("Attributes Type:", attribute_type, "Loaded");
         
         } else if (attribute_type == "dhf") {
-            console.log(attribute_data)
+            // console.log(attribute_data)
             this.empathy = attribute_data["empathy"]
             this.willpower = attribute_data["willpower"]
             this.acuity = attribute_data["acuity"]
@@ -380,5 +380,6 @@ const Player = class {
         this.dhf = new DHF(this.archetype.dhf);
         this.sleeve = new Sleeve(this.archetype.sleeve_type, this.archetype.sleeve);
         this.bank_account = new BankAccount(100, 0);
+        console.log(this);
     };
 };
