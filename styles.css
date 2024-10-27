@@ -121,7 +121,7 @@ a.navbar-text-link:hover {
   height: auto;
 }
 .main-content {
-  padding: 20px 10% 20px 10%;
+  margin: 20px 10% 20px 10%;
   width: -webkit-fill-available;
   height: auto;
 }
