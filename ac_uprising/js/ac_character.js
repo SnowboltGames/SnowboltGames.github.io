@@ -17,7 +17,7 @@ var Attributes = class {
             console.log("Attributes Type:", attribute_type, "Loaded");
         
         } else {
-            console.log("Attributes Not Loaded");
+            console.log("Attributes Not Loaded!");
         
         };
     };

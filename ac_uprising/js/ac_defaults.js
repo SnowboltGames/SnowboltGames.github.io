@@ -1,4 +1,4 @@
-export class RelacementSleeve {
+const RelacementSleeve = class {
     constructor(sleeve_value) {
         if (sleeve_value == 0) {
             this.sleeve_type = "natal";
