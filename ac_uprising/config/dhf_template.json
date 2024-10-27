@@ -1,0 +1,30 @@
+{
+    "player_data": {
+        "dhf_id": "", 
+        "dhf_age": 0, 
+        "planet_of_origin": "", 
+        "archetype": "", 
+        "attributes": {
+            "empathy": {}, 
+            "willpower": {}, 
+            "acuity": {}, 
+            "intelligence": {}
+        }
+    }, 
+    "sleeve_data": {
+        "original": true, 
+        "sleeve_type": null, 
+        "owned_sleeves": [0],
+        "equipped": {
+            "sleeve_id": 0, 
+            "attributes": {
+                "strength": {}, 
+                "perception": {}
+            }
+        }
+    }, 
+    "metadata": {
+        "last_active": "", 
+        "dhf_logs": {}
+    }
+}
