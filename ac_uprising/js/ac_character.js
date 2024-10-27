@@ -395,7 +395,7 @@ const BankAccount = class {
             this.balance+=amount;
         } else if (credit_type == "Cr") {
             _cr = amount*1000;
-            this.balance+=_cr
+            this.balance+=_cr;
         } else if (credit_type == "KCr") {
             _cr = amount*1000000;
             this.balance+=_cr;
