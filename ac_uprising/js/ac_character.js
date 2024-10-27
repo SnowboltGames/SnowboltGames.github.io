@@ -24,6 +24,8 @@ var Attributes = class {
 const DHF = class {
     constructor(dhf_dataset) {
         this.attributes = new Attributes("dhf", dhf_dataset);
+        this.influence_points = 0;
+        this.stack_points = 0;
     };
 };
 
@@ -363,13 +365,6 @@ const Archetype = class {
             };
 
         };
-    };
-};
-
-const UNCredit = class {
-    constructor(denomination, credit_type) {
-        this.denomination = denomination;
-        this.credit_type = credit_type;
     };
 };
 
