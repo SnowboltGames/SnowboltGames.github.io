@@ -379,7 +379,7 @@ const Player = class {
         this.archetype = new Archetype(null, archetype);
         this.dhf = new DHF(this.archetype.dhf);
         this.sleeve = new Sleeve(this.archetype.sleeve_type, this.archetype.sleeve);
-        this.bank_account = new BankAccount(100, 0);
+        this.bank_account = new BankAccount(100.00, 0.00);
         console.log(this);
     };
 };
