@@ -391,7 +391,7 @@ const BankAccount = class {
     };
     add_balance = function(amount, credit_type) {
         if (credit_type == "μCr") {
-            var _cr = amount/1000;
+            var _cr = amount;
             this.balance+=amount;
         } else if (credit_type == "Cr") {
             var _cr = amount*1000;
@@ -415,7 +415,7 @@ const Player = class {
         this.archetype = new Archetype(null, archetype);
         this.dhf = new DHF(this.archetype.dhf);
         this.sleeve = new Sleeve(this.archetype.sleeve_type, this.archetype.sleeve);
-        this.bank_account = new BankAccount(50.00, 0.00);
+        this.bank_account = new BankAccount(0.00, 0.00);
         console.log(this);
     };
 };
