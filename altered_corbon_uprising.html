@@ -31,16 +31,16 @@
         </div>
         <div class="main-content">
             <script>
-                const player = new Player("Test Player Name", "soldier");
-                player.bank_account.add_balance(20, "KCr");
-                player.bank_account.add_balance(1, "GCr");
-                replace_sleeve(player, 0);
+                const n_player = new Player("Test Player Name", "soldier");
+                n_player.bank_account.add_balance(20, "KCr");
+                n_player.bank_account.add_balance(1, "GCr");
+                replace_sleeve(n_player, 0);
             </script>
             <p><u>Altered Carbon: Uprising</u></p><br />
-            <p>Player Name : <script>document.write(player.name);</script></p>
-            <p>Player Archetype : <script>document.write(player.archetype.name);</script></p>
-            <p>Player Sleeve Type : <script>document.write(player.sleeve.sleeve_type);</script></p>
-            <p>Credit Balance : <script>document.write(player.bank_account.get_balance());</script></p>
+            <p>Player Name : <script>document.write(n_player.name);</script></p>
+            <p>Player Archetype : <script>document.write(n_player.archetype.name);</script></p>
+            <p>Player Sleeve Type : <script>document.write(n_player.sleeve.sleeve_type);</script></p>
+            <p>Credit Balance : <script>document.write(n_player.bank_account.get_balance());</script></p>
         </div>
         <div class="footer-bar">
             <div class="footer-navbar-brand">
