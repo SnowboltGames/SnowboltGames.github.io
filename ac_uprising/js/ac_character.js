@@ -42,7 +42,7 @@ const Archetype = class {
         this.sleeve = null;
         this.set_dhf_attributes();
     };
-    static set_dhf_attributes = function() {
+    set_dhf_attributes = function() {
         if (sleeve_type != null) {
             this.sleeve_type = sleeve_type
         };
