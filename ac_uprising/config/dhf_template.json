@@ -5,10 +5,10 @@
         "planet_of_origin": "", 
         "archetype": "", 
         "attributes": {
-            "empathy": {}, 
-            "willpower": {}, 
-            "acuity": {}, 
-            "intelligence": {}
+            "empathy": [], 
+            "willpower": [], 
+            "acuity": [], 
+            "intelligence": []
         }
     }, 
     "sleeve_data": {
@@ -18,8 +18,8 @@
         "equipped": {
             "sleeve_id": 0, 
             "attributes": {
-                "strength": {}, 
-                "perception": {}
+                "strength": [], 
+                "perception": []
             }
         }
     }, 
