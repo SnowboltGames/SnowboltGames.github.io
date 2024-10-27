@@ -1,4 +1,5 @@
-require('./ac_defaults.js');
+import {ReplacementSleeve} from './ac_defaults.js';
+// require('./ac_defaults.js');
 
 var Attributes = class {
     constructor(attribute_type, attribute_data) {
