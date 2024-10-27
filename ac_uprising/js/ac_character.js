@@ -419,6 +419,5 @@ const Player = class {
         this.sleeve = new Sleeve(this.archetype.sleeve_type, this.archetype.sleeve);
         this.bank_account = new BankAccount(0.00, 0.00);
         console.log(this);
-        console.log(this.bank_account.get_balance());
     };
 };
