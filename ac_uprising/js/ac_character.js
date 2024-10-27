@@ -48,6 +48,7 @@ const Archetype = class {
         if (sleeve_type != null) {
             this.sleeve_type = sleeve_type
         };
+
         if (this.name == "civilian") {
             if (sleeve_type == null) {
                 this.sleeve_type = "birth"
@@ -100,7 +101,6 @@ const Archetype = class {
                     "throw": [1, "d8"]
                 }
             };
-
         } else if (this.name == "socialite") {
             if (sleeve_type == null) {
                 this.sleeve_type = "birth"
@@ -153,7 +153,6 @@ const Archetype = class {
                     "throw": [1, "d8"]
                 }
             };
-
         } else if (this.name == "official") {
             if (sleeve_type == null) {
                 this.sleeve_type = "birth"
@@ -206,7 +205,6 @@ const Archetype = class {
                     "throw": [1, "d8"]
                 }
             };
-
         } else if (this.name == "criminal") {
             if (sleeve_type == null) {
                 this.sleeve_type = "synth_low"
@@ -259,7 +257,6 @@ const Archetype = class {
                     "throw": [1, "d8"]
                 }
             };
-
         } else if (this.name == "technician") {
             if (sleeve_type == null) {
                 this.sleeve_type = "birth"
@@ -312,7 +309,6 @@ const Archetype = class {
                     "throw": [1, "d8"]
                 }
             };
-
         } else if (this.name == "soldier") {
             if (sleeve_type == null) {
                 this.sleeve_type = "synth_med"
@@ -365,7 +361,6 @@ const Archetype = class {
                     "throw": [1, "d8"]
                 }
             };
-
         };
     };
 };
