@@ -380,7 +380,7 @@ const BankAccount = class {
     };
     get_balance = function() {
         if (this.balance < 1000) {
-            return ""+this.balance+" (μCr)";
+            return ""+this.balance+" (mCr)";
         } else if (this.balance < 1000000) {
             return ""+this.balance/1000+" (Cr)";
         } else if (this.balance < 1000000000) {
@@ -392,7 +392,7 @@ const BankAccount = class {
         };
     };
     add_balance = function(amount, credit_type) {
-        if (credit_type == "μCr") {
+        if (credit_type == "mCr") {
             var _cr = amount;
             this.balance+=amount;
         } else if (credit_type == "Cr") {
