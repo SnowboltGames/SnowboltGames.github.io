@@ -427,6 +427,6 @@ const Player = class {
 };
 
 export {
-    replace_sleeve, 
-    Player
+    Player, 
+    replace_sleeve
 };
