@@ -409,7 +409,7 @@ export function replace_sleeve(player, sleeve_value) {
     player.sleeve = new_sleeve;
 };
 
-export class Player {
+export default class Player {
     constructor(name, archetype) {
         this.name = name;
         this.archetype = new Archetype(null, archetype);
