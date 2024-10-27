@@ -1,3 +1,5 @@
+import {ReplacementSleeve} from "ac_uprising/js/ac_defaults.js";
+
 var Attributes = class {
     constructor(attribute_type, attribute_data) {
         if (attribute_type == "sleeve") {
