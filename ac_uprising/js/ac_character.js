@@ -390,7 +390,6 @@ const BankAccount = class {
         };
     };
     add_balance = function(amount, credit_type) {
-        _uncr = new UNCredit(amount, credit_type);
         if (credit_type == "μCr") {
             _cr = amount/1000;
             this.balance+=amount;
