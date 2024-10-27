@@ -384,9 +384,11 @@ const BankAccount = class {
         } else if (this.balance < 1000000) {
             return ""+this.balance/1000+" (Cr)";
         } else if (this.balance < 1000000000) {
-            return ""+this.balance/1000000+" (MCr)";
-        } else if (this.balance >= 1000000000) {
-            return ""+this.balance/1000000000+" (GCr)";
+            return ""+this.balance/1000000+" (KCr)";
+        } else if (this.balance < 1000000000000) {
+            return ""+this.balance/1000000000+" (MCr)";
+        } else if (this.balance >= 1000000000000) {
+            return ""+this.balance/1000000000000+" (GCr)";
         };
     };
     add_balance = function(amount, credit_type) {
