@@ -413,7 +413,7 @@ export class Player {
         console.log(this);
     };
     replace_sleeve(sleeve_value) {
-        var new_sleeve_data = new ReplacementSleeve(sleeve_value);
-        this.sleeve = new Sleeve(new_sleeve_data.sleeve_type, new_sleeve_data.sleeve_data);
+        var nsd = new ReplacementSleeve(sleeve_value);
+        this.sleeve = new Sleeve(nsd.sleeve_type, nsd.sleeve_data);
     };
 };
