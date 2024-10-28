@@ -405,7 +405,7 @@ const BankAccount = class {
     };
 };
 
-var Player = class {
+const Player = class {
     constructor(name, archetype) {
         this.name = name;
         this.archetype = new Archetype(null, archetype);
