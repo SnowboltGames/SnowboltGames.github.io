@@ -7,8 +7,10 @@
         <!--
         <script src="ac_uprising/js/ac_character.js" type="module"></script>
         -->
-        <script>
+        <script type="module">
             import * as utils from "./ac_uprising/js/ac_character.js";
+        </script>
+        <script>
             var n_player = new Player("Test Name", "soldier");
             n_player.bank_account.add_balance(20, "KCr");
             n_player.bank_account.add_balance(1, "GCr");
