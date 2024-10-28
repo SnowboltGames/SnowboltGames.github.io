@@ -1,4 +1,4 @@
-export default class AC_RPG {
+const AC_RPG = class {
     constructor() {
         this.player = null;
         this.map = null;
