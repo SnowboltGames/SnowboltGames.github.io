@@ -420,6 +420,6 @@ const Player = class {
     };
 };
 
-export {
+export default {
     Player
 };
