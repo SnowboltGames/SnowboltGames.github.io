@@ -1,4 +1,6 @@
-import {ReplacementSleeve} from './ac_defaults.js';
+import {
+    ReplacementSleeve
+} from './ac_defaults.js';
 
 var Attributes = class {
     constructor(attribute_type, attribute_data) {
@@ -403,7 +405,7 @@ const BankAccount = class {
     };
 };
 
-export class Player {
+const Player = class {
     constructor(name, archetype) {
         this.name = name;
         this.archetype = new Archetype(null, archetype);
@@ -416,4 +418,8 @@ export class Player {
         var _nsd = new ReplacementSleeve(sleeve_value);
         this.sleeve = new Sleeve(_nsd.sleeve_type, _nsd.sleeve_data);
     };
+};
+
+export {
+    Player
 };
