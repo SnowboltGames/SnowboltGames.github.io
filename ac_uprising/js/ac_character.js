@@ -403,7 +403,7 @@ const BankAccount = class {
     };
 };
 
-export class Player {
+export default class Player {
     constructor(name, archetype) {
         this.name = name;
         this.archetype = new Archetype(null, archetype);
