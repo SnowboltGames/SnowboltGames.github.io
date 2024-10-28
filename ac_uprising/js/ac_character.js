@@ -403,12 +403,6 @@ const BankAccount = class {
     };
 };
 
-export function replace_sleeve(player, sleeve_value) {
-    let new_sleeve_data = new ReplacementSleeve(sleeve_value);
-    let new_sleeve = Sleeve(new_sleeve_data.sleeve_type, new_sleeve_data.sleeve_data);
-    player.sleeve = new_sleeve;
-};
-
 export class Player {
     constructor(name, archetype) {
         this.name = name;
@@ -417,5 +411,9 @@ export class Player {
         this.sleeve = new Sleeve(this.archetype.sleeve_type, this.archetype.sleeve);
         this.bank_account = new BankAccount(0.00, 0.00);
         console.log(this);
+    };
+    replace_sleeve(sleeve_value) {
+        var new_sleeve_data = new ReplacementSleeve(sleeve_value);
+        this.sleeve = Sleeve(new_sleeve_data.sleeve_type, new_sleeve_data.sleeve_data);
     };
 };
