@@ -414,6 +414,6 @@ export class Player {
     };
     replace_sleeve(sleeve_value) {
         var new_sleeve_data = new ReplacementSleeve(sleeve_value);
-        this.sleeve = Sleeve(new_sleeve_data.sleeve_type, new_sleeve_data.sleeve_data);
+        this.sleeve = new Sleeve(new_sleeve_data.sleeve_type, new_sleeve_data.sleeve_data);
     };
 };
