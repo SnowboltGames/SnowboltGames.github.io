@@ -7,11 +7,9 @@
         <!--
         <script src="ac_uprising/js/ac_character.js" type="module"></script>
         -->
-        <script type="module">
-            import * as utils from "./ac_uprising/js/ac_character.js";
-        </script>
         <script>
-            var n_player = new Player("Test Name", "soldier");
+            const utils = require("./ac_uprising/js/ac_character.js");
+            var n_player = new utils.Player("Test Name", "soldier");
             n_player.bank_account.add_balance(20, "KCr");
             n_player.bank_account.add_balance(1, "GCr");
             n_player.replace_sleeve(0);
