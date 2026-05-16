@@ -36,9 +36,30 @@ const hasShowcase = spotlightItems.length > 0;
 
 document.addEventListener("DOMContentLoaded", () => {
     initializePages();
+    setupMobileMenu();
     window.addEventListener("hashchange", route);
     route();
 });
+
+function setupMobileMenu() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navBar = document.querySelector('.nav-bar');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    if (!menuToggle || !navBar) {
+        return;
+    }
+
+    menuToggle.addEventListener('click', () => {
+        navBar.classList.toggle('active');
+    });
+
+    navLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+            navBar.classList.remove('active');
+        });
+    });
+}
 
 function initializePages() {
     updateShowcaseVisibility();
