@@ -159,7 +159,7 @@ function buildHomePage() {
                 <h2>Building worlds with bold storytelling and strategic depth.</h2>
                 <p>Snowbolt Games blends dramatic tabletop design, collectible strategies, and immersive play experiences. We are a small studio focused on ambitious systems, playable worlds, and strong community ties.</p>
                 <div class="hero-actions">
-                    <a class="button" href="#contact">Join Playtest</a>
+                    <a class="button" href="#contact">Get In Touch</a>
                     ${heroExploreLink}
                 </div>
             </div>
