@@ -213,19 +213,19 @@ function buildAboutPage() {
         <section class="section-block">
             <span class="eyebrow">Studio story</span>
             <h2>We make games for imagination, tactics, and strong table moments.</h2>
-            <p>Snowbolt Games began with a love for trading cards and collaborative worldbuilding. Today we design across formats with a simple goal: create memorable systems players want to return to again and again.</p>
+            <p>Snowbolt Games began with a love for gaming and collaborative worldbuilding. Today we aim to design across formats with a simple goal: create memorable systems players want to return to again and again.</p>
         </section>
         <section class="section-block info-grid">
             <div class="card">
-                <h3>Our values</h3>
+                <h3>Our Values</h3>
                 <p>Design first, community second, and polish everywhere in between. Every project is guided by meaningful player choice, readable rules, and room for creativity.</p>
             </div>
             <div class="card">
-                <h3>Our team</h3>
+                <h3>Our Team</h3>
                 <p>A compact group of designers, artists, and rules thinkers. We move fast, validate ideas regularly, and center playtesting in every iteration cycle.</p>
             </div>
             <div class="card">
-                <h3>Our promise</h3>
+                <h3>Our Promise</h3>
                 <p>Responsive updates, transparent progress, and player-tested decisions. You’ll always know what we’re building and why it matters.</p>
             </div>
         </section>
