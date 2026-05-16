@@ -61,6 +61,10 @@ p.brand-text {
     letter-spacing: 0.03em;
 }
 
+div.nav-bar {
+    position: relative;
+}
+
 div.nav-bar nav ul {
     list-style: none;
     padding: 0;
@@ -78,6 +82,26 @@ div.nav-bar nav ul li a {
     text-decoration: none;
     color: var(--color-6);
     transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.menu-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    color: var(--color-6);
+}
+
+.menu-toggle span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    margin: 5px 0;
+    background: var(--color-6);
+    border-radius: 2px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 div.nav-bar nav ul li a:hover,
@@ -426,8 +450,29 @@ form.contact-form button {
         padding-right: 1.5rem;
     }
 
+    .nav-bar nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .featured-banner {
+        left: 0;
+        width: auto;
+        padding: 2.5rem 1.5rem;
+        border-radius: 0 0 24px 24px;
+    }
+
+    .featured-banner-content {
+        max-width: none;
+    }
+
     .hero {
         grid-template-columns: 1fr;
+    }
+
+    .hero-panel {
+        gap: 1.5rem;
     }
 
     .cards-grid,
@@ -439,19 +484,111 @@ form.contact-form button {
 
 @media (max-width: 720px) {
     header {
+        padding: 1rem 1rem;
         flex-direction: column;
         align-items: stretch;
         gap: 1rem;
     }
 
-    div.nav-bar nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
+    .menu-toggle {
+        display: block;
+        margin-bottom: -1rem;
+    }
+
+    main {
+        padding: 0 1rem 2.5rem;
+    }
+
+    .featured-banner {
+        padding: 2rem 1rem;
+        min-height: 360px;
+        border-radius: 0;
+    }
+
+    .hero {
+        padding: 1.5rem 1rem;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .nav-bar nav {
+        position: absolute;
+        top: calc(100% + 0.5rem);
+        right: 1rem;
+        left: 1rem;
+        background: rgba(18, 18, 18, 0.96);
+        border-radius: 22px;
+        padding: 2rem 1rem;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+        z-index: 12;
+        box-shadow: 0 24px 60px rgba(0,0,0,0.25);
+    }
+
+    .nav-bar.active nav {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .nav-bar nav ul {
+        display: inline-flex !important;
+        flex-direction: column;
+        gap: 1.5rem !important;
+        width: var(--wfa);
+    }
+
+    .nav-bar nav ul li {
+        width: var(--wfa);
+        text-align: center;
+    }
+
+    .nav-bar nav ul li a {
+        display: block;
+        width: var(--wfa);
+        text-align: center;
     }
 
     .cards-grid,
     .info-grid,
     .showcase-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 540px) {
+    .featured-banner {
+        padding: 1.75rem;
+        min-height: 320px;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+
+    h1 {
+        font-size: clamp(2rem, 8vw, 2.8rem);
+    }
+
+    h2 {
+        font-size: clamp(1.5rem, 6vw, 2rem);
+    }
+
+    .section-block {
+        margin-bottom: 1.5rem;
+    }
+
+    .nav-bar nav ul li a {
+        padding: 0.65rem 0.9rem;
+        font-size: 15px;
     }
 }
