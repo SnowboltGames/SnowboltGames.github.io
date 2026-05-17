@@ -301,7 +301,7 @@ function buildFeaturedPage() {
     const crowdFundLink = !hasCF ? `<a class="button" href="${featuredProject.crowdFundUrl}" target="_blank">View CrowdFunding</a>` : "";
 
     return `
-        <section class="section-block featured-banner featured-page-banner" style="background-image: url('${featuredProject.heroImage}');">
+        <section class="section-block featured-banner featured-page-banner" style="background-image: url('${featuredProject.heroImage}'); background-size: cover;">
             <div class="featured-banner-content">
                 <span class="eyebrow">Featured Studio Project</span>
                 <h1>${featuredProject.title}</h1>
