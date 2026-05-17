@@ -484,15 +484,31 @@ form.contact-form button {
 
 @media (max-width: 720px) {
     header {
-        padding: 1rem 1rem;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 1rem;
+        padding: 0.6rem 1rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
     }
 
     .menu-toggle {
         display: block;
-        margin-bottom: -1rem;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        padding: 0.25rem;
+        margin: 0;
+        margin-left: auto;
+        background: transparent;
+    }
+
+    .brand img {
+        height: 44px;
+    }
+
+    p.brand-text {
+        font-size: 18px;
     }
 
     main {
@@ -520,42 +536,49 @@ form.contact-form button {
 
     .nav-bar nav {
         position: absolute;
-        top: calc(100% + 0.5rem);
+        top: calc(100% + 0.4rem);
         right: 1rem;
-        left: 1rem;
+        left: auto;
         background: rgba(18, 18, 18, 0.96);
-        border-radius: 22px;
-        padding: 2rem 1rem;
+        border-radius: 14px;
+        padding: 0.6rem 0.6rem;
         opacity: 0;
         visibility: hidden;
-        transform: translateY(-10px);
-        transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
-        z-index: 12;
-        box-shadow: 0 24px 60px rgba(0,0,0,0.25);
+        transform: translateY(-8px);
+        transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+        z-index: 120;
+        box-shadow: 0 18px 40px rgba(0,0,0,0.28);
+        min-width: 180px;
+        max-width: 92vw;
     }
 
     .nav-bar.active nav {
         opacity: 1;
         visibility: visible;
         transform: translateY(0);
+        margin-top: 2rem;
     }
 
     .nav-bar nav ul {
-        display: inline-flex !important;
+        display: flex;
         flex-direction: column;
-        gap: 1.5rem !important;
-        width: var(--wfa);
+        gap: 0.5rem;
+        padding: 0;
+        margin: 0;
+        width: var(--wfa) !important;
     }
 
     .nav-bar nav ul li {
-        width: var(--wfa);
-        text-align: center;
+        width: 100%;
+        text-align: left;
     }
 
     .nav-bar nav ul li a {
         display: block;
-        width: var(--wfa);
-        text-align: center;
+        padding: 0.6rem 0.9rem;
+        width: 100%;
+        text-align: left;
+        border-radius: 10px;
     }
 
     .cards-grid,
